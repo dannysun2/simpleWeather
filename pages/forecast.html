@@ -1,0 +1,5 @@
+<h1>Forecast</h1>
+<h3>{{ city }}</h3>
+
+<hr />
+<forecast-day forecast-object="wr" convert-to-date="convertToDate(dt)" convert-to-fahrenheit="convertToFahrenheit(temp)" ng-repeat="wr in weatherResult.list"></forecast-day>
